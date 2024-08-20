@@ -14,9 +14,8 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents,
       // implement node event listeners here
-    specPattern:'cypress/integration/basics/day1/frameworks/*.js'
-    //cypress/integration/basics/day1/assignments/day1.js
-    //cypress/integration/basics/day1
-    //cypress/integration/basics/day1/frameworks
+    specPattern:('cypress/integration/basics/day1/MASAIPROJECT/*.js')
+   // cypress/integration/basics/day1/MASAIPROJECT
+   //cypress/integration/basics/day1/MASAIPROJECT/DAY1.JS
   }
 });
